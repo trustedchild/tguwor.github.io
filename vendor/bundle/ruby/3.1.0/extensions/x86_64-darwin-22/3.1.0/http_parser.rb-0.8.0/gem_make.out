@@ -1,0 +1,24 @@
+current directory: /Users/thomasguwor/javascript-tutorial/tguwor.github.io/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+/Users/thomasguwor/.rbenv/versions/3.1.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/thomasguwor/javascript-tutorial/tguwor.github.io/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20231118-75874-ksk9jg sitelibdir\=./.gem.20231118-75874-ksk9jg clean
+
+current directory: /Users/thomasguwor/javascript-tutorial/tguwor.github.io/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20231118-75874-ksk9jg sitelibdir\=./.gem.20231118-75874-ksk9jg
+compiling ruby_http_parser.c
+ruby_http_parser.c:365:17: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'long' [-Wsign-compare]
+    if (nparsed < len)
+        ~~~~~~~ ^ ~~~
+1 warning generated.
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.bundle
+ld: warning: -multiply_defined is obsolete
+
+current directory: /Users/thomasguwor/javascript-tutorial/tguwor.github.io/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20231118-75874-ksk9jg sitelibdir\=./.gem.20231118-75874-ksk9jg install
+/usr/local/bin/ginstall -c -m 0755 ruby_http_parser.bundle ./.gem.20231118-75874-ksk9jg
+
+current directory: /Users/thomasguwor/javascript-tutorial/tguwor.github.io/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20231118-75874-ksk9jg sitelibdir\=./.gem.20231118-75874-ksk9jg clean
